@@ -5,7 +5,7 @@ const Figure = (props) => {
   <React.Fragment>
     <div className='figure' style={{display: "flex", justifyContent: "space-evenly"}}>
       <div className='images'>
-        <img src={props.images[props.mistakes]}/>
+        <img src={props.images[props.mistakes]} alt='images of hangman'/>
       </div>
       <div className='wrong-guess-tracker' style={{padding: "2rem", paddingLeft: "5rem"}}>
         <h4>Wrong Guesses:</h4>
