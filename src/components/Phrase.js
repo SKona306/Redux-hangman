@@ -16,7 +16,7 @@ const Phrase = (props) => {
   const blankAnswers = phrase.split("").map(letter => (guessed.includes(letter) ? letter : " _ "))
   return (
   <React.Fragment>
-    <p>{blankAnswers}</p>
+    <p style={{display: "flex", alignItems: 'center', justifyContent: 'center'}}>{blankAnswers}</p>
   </React.Fragment>
   );
 };
